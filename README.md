@@ -1,73 +1,27 @@
 # Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-***
-
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+Hacer una copia de la estructura del sitio [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
 ## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Identificamos como puede estar dividido el sitio.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+2. Comenzamos con un header para colocar el nombre del freelance y el menu al que se puede acceder, se colocará de manera fija para que siempre este visible.
+  2.A Necesitamos que el nombre quede a la izquierda y el menu a la derecha
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+3. Identificamos 4 secciones mas el footer.
 
-## Objetivo
+4. Para cada sección se crea un contenedor "sección" para delimitar el espacio del contenido y sus caracterizticas como el color de fondo.
+  4a. Dentro de cada sección se crea un contenedor (también para el footer) para todos los elementos que conforman la sección, esto ayudará a organizarlos y distribuirlos
+  4b. Sección1: 4 elementos en bloque alineados al centro.
+  4c. Sección2: 4 elementos en bloque alineados al centro, un parrafo, una imagen y dos div que contendrán 3 imagenes cada uno.
+  4d. Sección3: 5 elementos; un <p>, una img, 2 <p> inline-block y un boton.
+  4e. Sección4: 4 elementos; un <p>, una img, un formulario con 4 campos y un boton.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+5. Para el pie de página tenemos idenntificados 3 bloques de información, 5 iconos y un Copyright.
+  5a. Los bloques los separamos en 2 partes, encabezados con <h2> y <p> para los parrafos del lado izquierdo y lado derecho.
+  5b. El bloque central se queda con un <h2> y las 5 imágenes.
 
-![Freelancer Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
-
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
 
 ## A tener en cuenta
 
